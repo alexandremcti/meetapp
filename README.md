@@ -31,7 +31,7 @@ Configurar o nodemon para rodar extensoes js quando usado o sucrase
 
 criar um container com uma imagem.
 
-docker run --name database -e POSTGRES_PASSWORD=docker -d postgres -p 5432:5432 -d postgres
+docker run --name [database name] -e POSTGRES_PASSWORD=[password ] -d postgres -p 5432:5432 -d postgres
 
 # configuração do eslint (padronização de código)
 
